@@ -1,0 +1,7 @@
+creates a variable by assigning it the value 99, and display it in short, int, float, char in table form in the console. the table will look like this:
+
++------+------+------+------+
+|short |int   |float |char  |
++------+------+------+------+
+|      |      |      |      |
++------+------+------+------+
