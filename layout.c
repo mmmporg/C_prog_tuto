@@ -9,7 +9,7 @@ int main(){
      * 
      * mix declaration and assignition(initialization): type name = value=;    ex: int var1 = 2, var2 = 3.5;
      * 
-     * functino declaration: type name(type var1, type var2, ...);
+     * function declaration: type name(type var1, type var2, ...);
      * function definition:
      *              type name(type var1, type var2, ...){
      *                  statement1;

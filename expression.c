@@ -9,13 +9,12 @@ int main(){
      * relational operators: ==, !=, >, <, >=, <=
      * logical operators: &&, ||, !
      * 
-     *highest precedence: + (unary), - (unary)
+     *highest precedence: + (unary), - (unary), logical not(!)
      *                      *, /, %
      *                     +, -,
      *                  relational operators
      *               logical AND (&&)
      *            logical OR (||)
-     *              lowest precedence: logical NOT (!)
      */
 
     //arithmetic operators: uniry operators
