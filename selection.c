@@ -9,6 +9,14 @@
  * logical operator: !, &&, ||
  * 
  * conditional expression: expr1 ? expr2 : expr3
+ * 
+ * switch(expression){
+ *     case constant_expression1: statements;
+ *                                
+ *     case constant_expression2: statements;
+ *     ...
+ *     default: statements;
+ * }
  */
 
 #include <stdio.h>
@@ -70,5 +78,64 @@ int main(){
 
     printf("end of the program\n");
 
-    
+    //cascade if-else like swicth
+    int time = 1;
+
+    if(time == 1){
+        printf("cascade if-else: good morning\n");
+    }
+    else if(time == 2){
+        printf("cascade if-else: good evening\n");
+    }
+    else if(time == 3){
+        printf("cascade if-else: good afternoon\n");
+    }
+    else{
+        printf("cascade if-else: good night\n");
+    }
+
+    //switch statement
+    switch (time){
+        case 1: printf("swicth: good morning\n");
+                break;
+        case 2: printf("swicth: good evening\n");
+                break;
+        case 3: printf("swicth: good afternoon\n");
+                break;
+        default: printf("swicth: good night\n");
+    }
+
+    //switch with character
+    char grade = 'x';
+
+    switch(grade){
+        case 'A': printf("Excellent\n");
+                  break;
+        case 'B': printf("Very good\n");
+                  break;
+        case 'C': printf("Good\n");
+        case 'x': printf("Average\n");
+                  break;
+        case 'D': printf("Pass\n");
+                  break;
+        case 'F': printf("Fail\n");
+                  break;
+        default: printf("Invalid grade\n");
+    }
+
+    //switch several case
+    switch(grade){
+        case 'A': printf("Excellent\n");
+                  break;
+        case 'B': printf("Very good\n");
+                  break;
+        case 'C': case 'x': case 'z':
+                printf("Average\n");
+                break;
+        case 'D': printf("Pass\n");
+                  break;
+        case 'F': printf("Fail\n");
+                  break;
+        default: printf("Invalid grade\n");
+    }
 }
