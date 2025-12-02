@@ -96,4 +96,7 @@ int main(){
         printf("r: %d\n", r);
     }
     end: printf("end of the program\n");
+
+    //null statement
+    while(scanf("%d", &a) && a != 0) ;
 }

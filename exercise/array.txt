@@ -1,0 +1,6 @@
+construct 4x4 identity array with for loop, the result in terminal looks like:
+
+{1, 0, 0, 0,
+ 0, 1, 0, 0,
+ 0, 0, 1, 0,
+ 0, 0, 0, 1}
