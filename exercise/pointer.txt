@@ -1,0 +1,23 @@
+Consider a video game. Create a variable which keeps a real number which keeps the life points of the characters, its value must remain between 0 and 100. it is the content of this variable that must be displayed. Thus, create two functions, one which allows you to remove a desired value and the other which allows you to add (always real numbers). the code should allow the user to add or remove life points as they want and the code loops when the user enters 'x' and validates. Any other invalid input by the user should print "invalid input" and continue its loop. The result looks like this:
+
+Current life points: 100
+please add or remove some life points: -25
+
+Current life points: 75
+please add or remove some life points: 50
+
+Current life points: 100
+please add or remove some life points: -150
+
+Current life points: 0
+please add or remove some life points: 3b
+
+invalid input !!!
+
+Current life points: 0
+please add or remove some life points: 120
+
+Current life points: 100
+please add or remove some life points: x
+
+Goodbye !

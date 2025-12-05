@@ -8,6 +8,7 @@ int main() {
     int number = 10; // Default is an int
     int octal_form_number = 043; //digit go from 0 to 7
     int hexe_form_number = 0x5a; //digit go from 0 to 9 and a to f
+    int binary_form_number = 0b1010; //digit go from 0 to 1
 
     unsigned int u_int_number = 10U; // U indicates an unsigned integer
     unsigned long u_long_number = 300UL;
