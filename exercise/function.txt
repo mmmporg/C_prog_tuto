@@ -1,0 +1,10 @@
+Create a function that permit the user to draw a table by specifying the numbers of rows and column and then values of each row. Think about some error cases and how to handle them. The result looks like this:
+
+Please give the number of row and column for your table: 2 4
+Please fill the row 1: 2 34 55 0
+Please fill the row 2: 56 9 100 77
++------+------+------+------+
+|2     |34    |55    |0     |
++------+------+------+------+
+|56    |9     |100   |77    |
++------+------+------+------+
