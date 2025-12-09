@@ -1,0 +1,1 @@
+Write a C program that takes a string from user input, stores it in a string variable, and counts the number of characters in it (without using a function to count the number of characters, such as `strlen()`).
